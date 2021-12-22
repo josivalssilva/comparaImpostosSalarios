@@ -1,0 +1,2 @@
+# comparaImpostosSalarios
+Este código A diferença de impostos entre os dois salários. A ideia é que uma pessoa que hoje recebe um valor X de salário e está com uma segunda opção de vaga, fazendo uma comparação entre os respectivos Imposto de Renda e INSS de cada  Importante lembrar que os benefícios em ambos empregos não estão sendo calculados aqui! Assim como, seu conhecimento acerca do ambiente do novo trabalho. Muito cuidado então!
