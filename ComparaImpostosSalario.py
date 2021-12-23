@@ -16,7 +16,7 @@ def calculaIr(salarioAtual):
 
     return impostoDeRenda
 
-def calculaInssAtual(salarioAtual):
+def calculaInss(salarioAtual):
     impostoInss = 0
     if (salarioAtual <= 1100.00):
         impostoInss = salarioAtual * 0.075
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     salarioAtual = float(input("Digite o valor do salário da vaga atual: "))
     irAtual = calculaIr(salarioAtual)
     print('Você paga IR no emprego atual: ', irAtual )
-    inssAtual = calculaInssAtual(salarioAtual)
+    inssAtual = calculaInss(salarioAtual)
     print('Você paga INSS no emprego atual: ', inssAtual)
     salarioLiquidoAtual = (salarioAtual - (irAtual + inssAtual))
     print('Salário Líquido: ', salarioLiquidoAtual)
@@ -45,7 +45,7 @@ if __name__ == '__main__':
     salarioProposto = float(input("Digite o valor do salário proposto da novo emprego: "))
     irNovo = calculaIr(salarioProposto)
     print('Você paga IR no emprego atual: ', irNovo)
-    inssNovo = calculaInssAtual(salarioProposto)
+    inssNovo = calculaInss(salarioProposto)
     print('Você paga INSS no emprego atual: ', inssNovo)
     salarioLiquidoNovo = (salarioProposto - (irNovo + inssNovo))
     print('Salário Líquido: ', salarioLiquidoNovo, '\n')
